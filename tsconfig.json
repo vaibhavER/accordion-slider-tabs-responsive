@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+     "target": "ES5",
+      "baseUrl": "./",
+      "paths": {
+        "*": ["types/*"]
+      }
+    },
+    "include": [
+      "**/*",
+      "types/**/*"
+    ],
+    "exclude": ["node_modules"]
+  }
