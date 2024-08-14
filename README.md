@@ -17,7 +17,7 @@ A handy library __2-in-one__ for creating __responsive accordions__, __accordian
 
 See [example](https://codepen.io/vaibhav-FED/pen/abEjjZG) on the [codepen](https://codepen.io/vaibhav-FED/pen/abEjjZG).
 
-The slider is also available as a [Javascript plugin](https://github.com/bqworks/slider-pro).
+The slider is also available as a [Javascript plugin](https://github.com/vaibhavER/accordian-slider-tabs-responsive).
 
 ## Getting started ##
 
@@ -165,11 +165,11 @@ export default MyComponent;
 
 
 * [Add-ons](#add-ons)
-	* [1. Selector](#1-selector)
-	* [2. Animation](#2-animation)
-	* [3. Resize](#3-resize)
-	* [4. tabs](#4-tabs)
-	* [5. slider](#5-slider)
+	* [1. Selector](#selector)
+	* [2. Animation](#animation)
+	* [3. Resize](#resize)
+	* [4. tabs](#tabs)
+	* [5. slider](#slider)
 
 ### 1. Core options ###
 
@@ -202,7 +202,7 @@ Name | Default value | Description
 __If you're looking for a free tool to create mock APIs, check out [faux api](https://faux-api.com/). It's completely free to use.__
 
 
-If you found a bug or have a feature suggestion, please submit it in the [Issues tracker]().
+If you found a bug or have a feature suggestion, please submit it in the [Issues tracker](https://github.com/vaibhavER/accordian-slider-tabs-responsive/issues).
 
 
 If you need extensive help with implementing the slider in your project, you can contact me.
