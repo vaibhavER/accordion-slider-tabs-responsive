@@ -17,7 +17,7 @@ A handy library __2-in-one__ for creating __responsive accordions__, __accordian
 
 See [example](https://codepen.io/vaibhav-FED/pen/abEjjZG) on the [codepen](https://codepen.io/vaibhav-FED/pen/abEjjZG).
 
-The slider is also available as a [Javascript plugin](https://github.com/vaibhavER/accordian-slider-tabs-responsive).
+The slider is also available as a [Javascript plugin](https://codepen.io/vaibhav-FED/pen/abEjjZG).
 
 ## Getting started ##
 
