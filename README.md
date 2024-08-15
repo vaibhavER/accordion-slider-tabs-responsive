@@ -1,7 +1,7 @@
-# Accordian Slider Tabs Responsive #
+# Accordian Slider Tabs Responsive For React, Vue and all frameworks #
 
 
-A handy library __2-in-one__ for creating __responsive accordions__, __accordian with slider__, and __tabs__. It’s easy to use and works well on all screen sizes, supporting __touch interactions__ and customizable animations.
+A handy library __3-in-one__ for creating __responsive accordions__, __accordian with slider__, and __tabs__. It’s easy to use and works well on all screen sizes, supporting __touch interactions__ and customizable animations.
 
 *Main features:* 
 
