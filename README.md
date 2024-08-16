@@ -37,8 +37,9 @@ From unpkg.com:
 
 ```html
 <link rel="stylesheet" href="https://unpkg.com/accordion-slider-tabs-responsive/css/style.css"/>
-<script type="text/javascript" src="https://unpkg.com/accordion-slider-tabs-responsive/src/accordionTabCustom.js"></script>
+<script type="text/javascript" src="https://unpkg.com/accordion-slider-tabs-responsive/src/accordionTabCustomForJS.js"></script>
 ```
+
 
 Alternatively you can import the accordion's core and each add-on from the `accordion-slider-tabs-responsive` package.
 
@@ -125,7 +126,7 @@ You can also import the CSS, either the entire code or for each individual modul
 
 <script>
 import accordionTabCustom from 'accordion-slider-tabs-responsive';
-import 'accordian-slider-tabs-responsive/css/accordionTabCustom.css';
+import 'accordion-slider-tabs-responsive/css/accordionTabCustom.css';
 export default {
   mounted() {
     accordionTabCustom(myAccordion)
