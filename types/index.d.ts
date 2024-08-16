@@ -1,5 +1,5 @@
 // index.d.ts
-declare module 'demofinal' {
+declare module 'accordian-slider-tabs-responsive' {
     // If you have a default export
     
     const tabCustom: any;
