@@ -21,7 +21,9 @@
     "react accordian",
     "vue accordian",
     "npm",
-    "accordian slider tabs responsive"
+    "accordian slider tabs responsive",
+    "npm accordian",
+    "npm tabs"
   ],
   "author": "Vaibhav Saini",
   "license": "MIT",
