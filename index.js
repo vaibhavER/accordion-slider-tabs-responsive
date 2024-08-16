@@ -1,5 +1,5 @@
 // index.js
-import accordianTabCustom from './src/accordianTabCustom';
+import accordionTabCustom from './src/accordionTabCustom';
 
-export default accordianTabCustom;
+export default accordionTabCustom;
 

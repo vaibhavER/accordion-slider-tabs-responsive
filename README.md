@@ -1,15 +1,15 @@
-# Accordian Slider Tabs Responsive For React, Vue and all frameworks #
+# Accordion Slider Tabs Responsive For React, Vue and all frameworks #
 
 
-A handy library __3-in-one__ for creating __responsive accordions__, __accordian with slider__, and __tabs__. It’s easy to use and works well on all screen sizes, supporting __touch interactions__ and customizable animations.
+A handy library __3-in-one__ for creating __responsive accordions__, __accordion with slider__, and __tabs__. It’s easy to use and works well on all screen sizes, supporting __touch interactions__ and customizable animations.
 
 *Main features:* 
 
-* Accordian
+* Accordion
 * Tabs
 * Touch-swipe support
 * Animations
-* Accordian with Slider
+* Accordion with Slider
 * Fade effect
 * Carousel layout
 * Responsive
@@ -26,7 +26,7 @@ The slider is also available as a [Javascript plugin](https://codepen.io/vaibhav
 You can install it through `npm`.
 
 ```
-$ npm install accordian-slider-tabs-responsive
+$ npm install accordion-slider-tabs-responsive
 ```
 
 ### 2. Load the required files ###
@@ -36,28 +36,28 @@ You can either load the minimized JS and CSS files in your HTML.
 From unpkg.com:
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/accordian-slider-tabs-responsive/css/style.css"/>
-<script type="text/javascript" src="https://unpkg.com/accordian-slider-tabs-responsive/src/accordianTabCustom.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/accordion-slider-tabs-responsive/css/style.css"/>
+<script type="text/javascript" src="https://unpkg.com/accordion-slider-tabs-responsive/src/accordionTabCustom.js"></script>
 ```
 
-Alternatively you can import the accordian's core and each add-on from the `accordian-slider-tabs-responsive` package.
+Alternatively you can import the accordion's core and each add-on from the `accordion-slider-tabs-responsive` package.
 
 ```js
-import accordianTabCustom from 'accordian-slider-tabs-responsive';
+import accordionTabCustom from 'accordion-slider-tabs-responsive';
 ```
 
 You can also import the CSS, either the entire code or for each individual module:
 
 ```css
 // Imports the entire CSS code
-@import '~accordian-slider-tabs-responsive/css/style.css';
+@import '~accordion-slider-tabs-responsive/css/style.css';
 ```
 
 
 ### 3. Create the HTML for the slider ###
 
 ```html
-<div class="accordian">
+<div class="accordion">
     <div class="parent">
         <div class="section1 activeParent" for="section1">Lorem 1</div>
         <div class="section2" for="section2">Lorem 2</div>
@@ -78,8 +78,8 @@ You can also import the CSS, either the entire code or for each individual modul
 ```html
 <script type="text/javascript">
 	document.addEventListener( 'DOMContentLoaded', () => {
-		const myAccordian = {
-            selector: '.accordian',
+		const myAccordion = {
+            selector: '.accordion',
             animation: 'fadeIn',
             resize: true,
             tabs: {
@@ -91,7 +91,7 @@ You can also import the CSS, either the entire code or for each individual modul
                     media: 376 // Tabs visible instead of accordion for screen widths less than or equal to this value
                 }
             },
-            slider: { // Configuration options for the slider functionality within the accordian
+            slider: { // Configuration options for the slider functionality within the accordion
                 active: true,
                 nav: false,
                 touch: true,
@@ -111,7 +111,7 @@ You can also import the CSS, either the entire code or for each individual modul
                 }
             }
         }
-        accordianTabCustom(myAccordian)
+        accordionTabCustom(myAccordion)
 	});
 </script>
 ```
@@ -124,11 +124,11 @@ You can also import the CSS, either the entire code or for each individual modul
 </template>
 
 <script>
-import accordianTabCustom from 'accordian-slider-tabs-responsive';
-import 'accordian-slider-tabs-responsive/css/accordianTabCustom.css';
+import accordionTabCustom from 'accordion-slider-tabs-responsive';
+import 'accordian-slider-tabs-responsive/css/accordionTabCustom.css';
 export default {
   mounted() {
-    accordianTabCustom(myAccordian)
+    accordionTabCustom(myAccordion)
   }
 };
 </script>
@@ -143,11 +143,11 @@ export default {
 
 ```React
 import React, { useEffect } from 'react';
-import accordianTabCustom from 'accordian-slider-tabs-responsive';
+import accordionTabCustom from 'accordion-slider-tabs-responsive';
 
 const MyComponent = () => {
   useEffect(() => {
-    accordianTabCustom(myAccordian);
+    accordionTabCustom(myAccordion);
   }, []);
 
   return (
@@ -175,12 +175,12 @@ export default MyComponent;
 
 Name | Default value | Description
 ---|---|---
-<span id="selector">selector</span> | .accordian | CSS selector for the accordion element. Use # for ID.
+<span id="selector">selector</span> | .accordion | CSS selector for the accordion element. Use # for ID.
 <span id="animation">Animation</span> | fadeIn | Animation effect for transitions.
 <span id="resize">resize</span> | true | If set to true, the component will be responsive to window resize events. (Available in coming verson) 
 
 
-### 2. Tabs (Convert accordian into tabs as per resposnive media resolution) ###
+### 2. Tabs (Convert accordion into tabs as per resposnive media resolution) ###
 
 Name | Default value | Description
 ---|---|---
@@ -189,7 +189,7 @@ Name | Default value | Description
 <span>toggleParentClass</span> | null |  Class name for the parent element .
 <span>toggleChildClass</span> | null | Class name for the child elements.
 
-### 3. Slider (Convert accordian into slider as per javascript mediapoint) ###
+### 3. Slider (Convert accordion into slider as per javascript mediapoint) ###
 
 Name | Default value | Description
 ---|---|---
@@ -202,7 +202,7 @@ Name | Default value | Description
 __If you're looking for a free tool to create mock APIs, check out [faux api](https://faux-api.com/). It's completely free to use.__
 
 
-If you found a bug or have a feature suggestion, please submit it in the [Issues tracker](https://github.com/vaibhavER/accordian-slider-tabs-responsive/issues).
+If you found a bug or have a feature suggestion, please submit it in the [Issues tracker](https://github.com/vaibhavER/accordion-slider-tabs-responsive/issues).
 
 
 If you need extensive help with implementing the slider in your project, you can contact me.

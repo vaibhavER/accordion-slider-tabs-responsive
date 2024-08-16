@@ -1,5 +1,5 @@
 {
-  "name": "accordian-slider-tabs-responsive",
+  "name": "accordion-slider-tabs-responsive",
   "version": "1.0.0",
   "description": "A handy library for creating responsive accordions, sliders, and tabs. It’s easy to use and works well on all screen sizes, supporting touch interactions and customizable animations.",
   "main": "index",
@@ -9,20 +9,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vaibhavER/accordian-slider-tabs-responsive.git"
+    "url": "https://github.com/vaibhavER/accordion-slider-tabs-responsive.git"
   },
   "keywords": [
     "tab",
     "slider",
     "accordion",
-    "responsive accordian",
-    "convert accordian to tabs",
-    "accordian with slider",
-    "react accordian",
-    "vue accordian",
+    "responsive accordion",
+    "convert accordion to tabs",
+    "accordion with slider",
+    "react accordion",
+    "vue accordion",
     "npm",
-    "accordian slider tabs responsive",
-    "npm accordian",
+    "accordion slider tabs responsive",
+    "npm accordion",
     "npm tabs"
   ],
   "author": "Vaibhav Saini",
