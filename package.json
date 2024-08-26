@@ -1,6 +1,6 @@
 {
   "name": "accordion-slider-tabs-responsive",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A handy library for creating responsive accordions, sliders, and tabs. It’s easy to use and works well on all screen sizes, supporting touch interactions and customizable animations.",
   "main": "index",
   "types": "./types/index.d.ts",
@@ -23,9 +23,19 @@
     "npm",
     "accordion slider tabs responsive",
     "npm accordion",
-    "npm tabs"
+    "npm tabs",
+    "responsive-accordion",
+    "touch",
+    "javascript",
+    "vue-accordion",
+    "convert-accordion-to-tabs",
+    "npm-accordion",
+    "npm-tabs"
   ],
-  "author": "Vaibhav Saini",
+  "author": {
+    "name": "Vaibhav Saini",
+    "url": "https://faux-api.com/"
+  },
   "license": "MIT",
   "dependencies": {
     "browserify": "latest",

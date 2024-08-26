@@ -178,7 +178,7 @@ Name | Default value | Description
 ---|---|---
 <span id="selector">selector</span> | .accordion | CSS selector for the accordion element. Use # for ID.
 <span id="animation">Animation</span> | fadeIn | Animation effect for transitions.
-<span id="resize">resize</span> | true | If set to true, the component will be responsive to window resize events. (Available in coming verson) 
+<span id="resize">resize</span> | true | If set to true, the component will be responsive to window resize events.
 
 
 ### 2. Tabs (Convert accordion into tabs as per resposnive media resolution) ###
