@@ -1,6 +1,6 @@
 {
   "name": "accordion-slider-tabs-responsive",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A handy library for creating responsive accordions, sliders, and tabs. It’s easy to use and works well on all screen sizes, supporting touch interactions and customizable animations.",
   "main": "index",
   "types": "./types/index.d.ts",
